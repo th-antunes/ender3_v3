@@ -98,25 +98,5 @@ managed_services =
 
 [announcements]
 subscriptions = 
-	octoapp.
-
-[update_manager S66octoapp_service]
-type = git_repo
-channel = beta
-path = /usr/data/octoapp
-origin = https://github.com/crysxd/OctoApp-Plugin.git
-env = /usr/data/octoapp-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
-	S66octoapp_service
-
-[update_manager ]
-type = git_repo
-path = /usr/data/moonraker-obico/scripts/..
-origin = 
-env = /usr/data/moonraker-obico/scripts/../../moonraker-obico-env/bin/python
-requirements = requirements.txt
-install_script = install.sh
-managed_services = 
+	octoeverywhere
 
